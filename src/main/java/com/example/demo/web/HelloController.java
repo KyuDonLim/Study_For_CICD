@@ -13,13 +13,13 @@ public class HelloController {
     public String hello(@RequestParam(defaultValue = "1") Integer number){
         if(number == 1){ // info 로그
             log.info("/aws/v1 이 호출되었어요. info 로그 #####################################");
-            log.info("test 19:03");
-            log.info("test 19:03");
-            log.info("test 19:03");
-            log.info("test 19:03");
-            log.info("test 19:03");
-            log.info("test 19:03");
-            log.info("test 19:03");
+            log.info("test 19:40");
+            log.info("test 19:40");
+            log.info("test 19:40");
+            log.info("test 19:40");
+            log.info("test 19:40");
+            log.info("test 19:40");
+            log.info("test 19:40");
         }else if(number == -1){ // error 로그
             log.error("/aws/v1 이 호출되었어요. error 로그 #####################################");
         }else if(number == 0){ // warn 로그
