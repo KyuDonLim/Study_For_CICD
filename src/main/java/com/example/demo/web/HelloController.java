@@ -19,7 +19,7 @@ public class HelloController {
             log.info("test 19:40");
             log.info("test 19:40");
             log.info("test 19:40");
-            log.info("test 19:40");
+            log.info("test 19:46");
         }else if(number == -1){ // error 로그
             log.error("/aws/v1 이 호출되었어요. error 로그 #####################################");
         }else if(number == 0){ // warn 로그
